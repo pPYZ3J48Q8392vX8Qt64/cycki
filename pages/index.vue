@@ -1,269 +1,456 @@
 <template>
-  <div class='wrapper'>
-    <section>
-      <div class='first-part'>
-        <h1 class='first-header'>Duze Cycki z rana, jak smietana</h1>
-        <p class='first-paragraph'> 
+  <section>
+    <div class="wrapper">
+      <div class="r1c1">
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/10/banner1-1.png" alt="">
+      </div>
+      <div class="r1c2">
+        <h1 class='h1'>Duze Cycki z rana, jak smietana</h1>
+        <p class='p1'> 
           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
         </p>
         <AppButton class='.app-button'> Cycki </AppButton>
-        <AppButton style='margin-bottom: 35px' class='.app-button'> Wiecej cyckow! </AppButton>
+        <AppButton class='.app-button'> Wiecej cyckow! </AppButton>
       </div>
-        <div class="second-part">
-          <h2 class="section-header">The best...</h2>
-          <p>
+      <div class="r2c1">
+        <h2 class="h2">The best...</h2>
+        <p class='p2'>
             Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
             Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
             Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
             Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-          </p>
-        </div>
-        <div class="articles-container">
-        <div class="post-description posts-section">
-          <h2 class="section-header" style='padding-top: 30px;'>Post title</h2>
-          <p>
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-          </p>
-          <p class="read-more">Read more</p>
-          <AppButton class='button-view-on-desktop'>More articles</AppButton>
-        </div>
-        <div class="post-description hideen-on-mobile">
-          <h2 class="section-header" style='padding-top: 30px;'>Post title</h2>
-          <p>
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-          </p>
-          <p class="read-more">Read more</p>
-          <AppButton class='button-view-on-desktop'>More articles</AppButton>
-        </div>
-        <div class="post-description hideen-on-mobile">
-          <h2 class="section-header" style='padding-top: 30px;'>Post title</h2>
-          <p>
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-          </p>
-          <p class="read-more">Read more</p>
-          <AppButton class='button-view-on-desktop'>More articles</AppButton>
-        </div>
-      </div>
-      <div class="third-part">
-        <h2 class="section-header">The best...</h2>
-        <p style='padding-bottom: 30px;'>
-          Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-          Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-          Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-          Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
         </p>
       </div>
-      <div class="articles-container">
-        <div class="reversed-post-description">
-          <h2 class="section-header" style='padding-top: 30px;'>Post title</h2>
-          <p>
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-          </p>
+      <div class="r3c1">
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
           <p class="read-more">Read more</p>
-          <AppButton class='button-view-on-desktop'>More articles</AppButton>
         </div>
-        <div class="reversed-post-description hideen-on-mobile">
-          <h2 class="section-header" style='padding-top: 30px;'>Post title</h2>
-          <p>
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-          </p>
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
           <p class="read-more">Read more</p>
-          <AppButton class='button-view-on-desktop'>More articles</AppButton>
         </div>
-        <div class="reversed-post-description hideen-on-mobile">
-          <h2 class="section-header" style='padding-top: 30px;'>Post title</h2>
-          <p>
-            Leggia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legiaa Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
-            Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
-          </p>
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
           <p class="read-more">Read more</p>
-          <AppButton class='button-view-on-desktop'>More articles</AppButton>
         </div>
       </div>
-      <div class="wiki">
-        <h1 class="wiki-title wiki-main-title">Tego nie zmienialem na wersji desktopowej bo nie ma sensu bez zdjec</h1>
-        <ul class="list">
-          <li class="list-item">Placeholder</li>
-          <li class="list-item">Placeholder</li>
-          <li class="list-item">Placeholder</li>
-        </ul>
-        <h3 class="wiki-title">Let's get technical</h3>
-        <ul class="list">
-          <li class="list-item">Placeholder</li>
-          <li class="list-item">Placeholder</li>
-          <li class="list-item">Placeholder</li>
-        </ul>
-        <h3 class="wiki-title">Charging solutions</h3>
-        <ul class="list">
-          <li class="list-item">Placeholder</li>
-          <li class="list-item">Placeholder</li>
-          <li class="list-item">Placeholder</li>
-        </ul>
+      <div class="r4c1">
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
       </div>
-      <footer>
+      <div class="r4c1">
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+        <div>
+          <img src="https://www.homegrounds.co/wp-content/uploads/2019/08/Grind-coarse-section-edited-copy-300x150.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+      </div>
+      <div class="r5c1">
+        <h2>Our Experts Picks</h2>
+      </div>
+      <div class="r6c1">
+        <div>
+          <img src="https://www.powerbankexpert.com/wp-content/uploads/2020/03/usb-c-portable-charger.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+        <div>
+          <img src="https://www.powerbankexpert.com/wp-content/uploads/2020/03/usb-c-portable-charger.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+        <div>
+          <img src="https://www.powerbankexpert.com/wp-content/uploads/2020/03/usb-c-portable-charger.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+      </div>
+      <div class="r7c1">
+        <div>
+          <img src="https://www.powerbankexpert.com/wp-content/uploads/2020/03/usb-c-portable-charger.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+        <div>
+          <img src="https://www.powerbankexpert.com/wp-content/uploads/2020/03/usb-c-portable-charger.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+        <div>
+          <img src="https://www.powerbankexpert.com/wp-content/uploads/2020/03/usb-c-portable-charger.png" alt="">
+          <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
+          <p>What grind goes for each brew method? We've come up with the best coffee grind chart for you to follow.</p>
+          <p class="read-more">Read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="r8c1"></div>
+    <footer>
         <h2 class='footer-text'>Ale zajebisty footer!</h2>
-      </footer>
-    </section>
-  </div>
-  
+    </footer>
+  </section>
 </template>
 
+
+
 <style scoped>
-  section {
+/* Based on "Composition II in Red, Blue, and Yellow," by Piet Mondrian (1930): https://en.wikipedia.org/wiki/Piet_Mondrian */
+.wrapper {
+  width: auto;
+  display: grid;
+	grid-template-rows: 400px 300px 400px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 6fr));
+	background-color: #ecf0f1;
+}
+
+
+img {
     width: 100%;
-  }
+    height: 100%;
+    object-fit: cover;
+}
 
-  p, li {
-    line-height: 1.5;
-  }
+.r1c1 {
+	grid-column: 1/4;
+  grid-row:1/2;
+}
+.r1c2 {
+	grid-column: 4/7;
+  grid-row: 1/2;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ecf0f1;
+  color: #146396;
+  padding-top: 70px;
+}
 
-  footer {
-    background-color: #34495E;
-    padding: 0 30px;
-    height: 200px;
-  }
+.r2c1 {
+  grid-row: 2/3;
+  grid-column: 1/7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  background-color: white;
+}
 
+.p2 {
+  padding: 0 250px;
+}
 
-  .first-part {
-    padding: 0 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    color: #146396;
-    background-color: #ecf0f1;
-  }
+.h2 {
+  color:#146396;
+}
 
-  .first-header {
-    margin-top: 60px;
-    margin-bottom: 20px;
-    font-size: 40px;
-  }
-  
+.r3c1 {
+  grid-row: 3/4;
+  grid-column: 1/7;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  .first-paragraph {
-    font-size: 18px;
-  }
+.r3c1 img {
+  height: 150px;
+  width: 300px;
+}
 
-  .section-header {
-    margin-top: 0;
-  }
+.r3c1 > div > h3 {
+  color: #146396;
+}
 
-  .second-part {
-    padding: 0 30px;
-    padding-top: 20px;
-  }
+.r3c1 > div {
+  background-color: #ecf0f1;
+  max-width: 300px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 150px;
+}
 
-  .posts-section {
-    background-color: #ecf0f1;
-  }
+.read-more {
+  color: #FF761E;
+}
 
-  .third-part {
-    padding: 0 30px;
-    padding-top: 20px;
-  }
-  .section-header {
-    text-align: center;
-    color: #146396;
-    margin-top: 0;
-  }
+.r4c1 {
+  grid-row: 4/5;
+  grid-column: 1/7;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.r3c1 img {
+  height: 150px;
+  width: 300px;
+}
 
-  .post-description {
-    background-color: #ecf0f1;
-    padding: 0 30px;
-  }
+.r4c1 > div > h3 {
+  color: #146396;
+}
 
-  .third-part {
-    background-color: #ecf0f1;
-  }
+.r4c1 > div {
+  background-color: #ecf0f1;
+  max-width: 300px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
 
-  .reversed-post-description {
-    background-color: white;
-    padding: 0 30px;
-  }
+.r5c1 {
+  display: grid;
+  grid-row: 5/6;
+  grid-column: 1/7;
+  justify-items: center;
+  color: #146396;
+  padding-top: 50px;
+}
 
-  .read-more {
-    color: #FF761E;
-  }
+.r6c1 {
+  display: flex;
+  grid-row: 6/7;
+  grid-column: 1/7;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  .wiki {
-    padding: 0 30px;
-    margin-bottom: 200px;
-    margin-top: 50px;
-  }
+.r6c1 > div {
+  background-color: white ;
+  max-width: 300px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
 
-  .wiki-title {
-    border-bottom: solid;
-    color:#146396;
-  }
+.r7c1 {
+  display: flex;
+  grid-row: 7/8;
+  grid-column: 1/7;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  .footer-text {
-    color: #ecf0f1;
-    text-align: center;
-    padding-top: 50px;
-  }
+.r7c1 > div {
+  background-color: white ;
+  max-width: 300px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
 
-  .posts-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.r8c1 {
+  background-color: white;
+  padding: 150px 0;
+}
 
-  @media (max-width: 768px) { 
-  .hideen-on-mobile {
-    display:none;
-  }
-  }
-  
-  @media (min-width: 768px) { 
-    .first-part {
-    padding: 0 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    color: #146396;
-    background-color: #ecf0f1;
-    padding-top: 50px;
-  }
-
-  .first-paragraph {
-    width: 50%;
-  }
-
-  /* .button-view-on-desktop {
-    width: 150px;
-    align-self: center;
-  } */
-
-  .articles-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .second-part, .third-part {
-    padding: 70px 25%;
-  }
-  
-  .wiki-main-title {
-    color: red;
-  }
-   }
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: #34495E;
+  color: #ecf0f1;
+}
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // <div class='wrapper'>
+  //   <section>
+  //     <div>
+  //       <h1>Duze Cycki z rana, jak smietana</h1>
+  //       <p> 
+  //         Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //         Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //       </p>
+  //       <AppButton> Cycki </AppButton>
+  //       <AppButton> Wiecej cyckow! </AppButton>
+  //     </div>
+  //       <div>
+  //         <h2>The best...</h2>
+  //         <p>
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //         </p>
+  //       </div>
+  //       <div>
+  //       <div>
+  //         <h2>Post title</h2>
+  //         <p>
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //         </p>
+  //         <p>Read more</p>
+  //         <AppButton>More articles</AppButton>
+  //       </div>
+  //       <div>
+  //         <h2>Post title</h2>
+  //         <p>
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //         </p>
+  //         <p>Read more</p>
+  //         <AppButton>More articles</AppButton>
+  //       </div>
+  //       <div>
+  //         <h2>Post title</h2>
+  //         <p>
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //         </p>
+  //         <p>Read more</p>
+  //         <AppButton>More articles</AppButton>
+  //       </div>
+  //     </div>
+  //     <div>
+  //       <h2>The best...</h2>
+  //       <p>
+  //         Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //         Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //         Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //         Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //       </p>
+  //     </div>
+  //     <div>
+  //       <div>
+  //         <h2>Post title</h2>
+  //         <p>
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //         </p>
+  //         <p>Read more</p>
+  //         <AppButton>More articles</AppButton>
+  //       </div>
+  //       <div>
+  //         <h2>Post title</h2>
+  //         <p>
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //         </p>
+  //         <p>Read more</p>
+  //         <AppButton>More articles</AppButton>
+  //       </div>
+  //       <div>
+  //         <h2>Post title</h2>
+  //         <p>
+  //           Leggia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legiaa Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+  //           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
+  //         </p>
+  //         <p>Read more</p>
+  //         <AppButton>More articles</AppButton>
+  //       </div>
+  //     </div>
+  //     <div>
+  //       <h1>Tego nie zmienialem na wersji desktopowej bo nie ma sensu bez zdjec</h1>
+  //       <ul>
+  //         <li>Placeholder</li>
+  //         <li>Placeholder</li>
+  //         <li>Placeholder</li>
+  //       </ul>
+  //       <h3 >Let's get technical</h3>
+  //       <ul>
+  //         <li>Placeholder</li>
+  //         <li>Placeholder</li>
+  //         <li>Placeholder</li>
+  //       </ul>
+  //       <h3 >Charging solutions</h3>
+  //       <ul>
+  //         <li>Placeholder</li>
+  //         <li>Placeholder</li>
+  //         <li>Placeholder</li>
+  //       </ul>
+  //     </div>
+  //     <footer>
+  //       <h2>Ale zajebisty footer!</h2>
+  //     </footer>
+  //   </section>
+  // </div>

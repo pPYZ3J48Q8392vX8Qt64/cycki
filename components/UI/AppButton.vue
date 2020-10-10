@@ -25,7 +25,7 @@ export default {
   background-color: #FF761E;
   color: white;
   cursor: pointer;
-  width: 50%;
+  width: 50px;
   height: 50px;
   border: none;
   margin-left: 0;
@@ -35,7 +35,7 @@ export default {
 }
 @media (min-width: 768px) { 
 .button {
-  width: 20%;
+  width: 150px;
   margin-right: 15%;
 }
 }

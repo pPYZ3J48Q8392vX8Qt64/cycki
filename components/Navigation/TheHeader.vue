@@ -91,6 +91,7 @@ export default {
 
 .nav-item {
   margin: 0 10px;
+  margin-left: 50px;
 }
 
 .nav-item a {
