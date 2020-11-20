@@ -5,9 +5,9 @@
           <img src="https://www.homegrounds.co/wp-content/uploads/2019/10/banner1-1.png" alt="">
       </div>
       <div class="r1c2">
-        <h1 class='h1'>Duze Cycki z rana, jak smietana</h1>
+        <h1 class='h1'>Your Battery Always on 100%</h1>
         <p class='p1'> 
-          Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub! 
+          Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!<br>
           Legia Warszawa to najlepszy klub, kto nie wiezy to CHOJ mu w dziuuuub!
         </p>
         <AppButton class='.app-button'> Cycki </AppButton>
@@ -82,10 +82,10 @@
           <p class="read-more">Read more</p>
         </div>
       </div>
-      <div class="r5c1">
+      <div class="r5c1 color-transition">
         <h2>Our Experts Picks</h2>
       </div>
-      <div class="r6c1">
+      <div class="r6c1 color-transition">
         <div>
           <img src="https://www.powerbankexpert.com/wp-content/uploads/2020/03/usb-c-portable-charger.png" alt="">
           <h3>The Last Coffee Grind Size Chart You’ll Ever Need</h3>
@@ -164,9 +164,10 @@ img {
   flex-direction: column;
   align-items: center;
   background-color: #ecf0f1;
-  color: #146396;
+  color: #000000;
   padding-top: 70px;
 }
+
 
 .r2c1 {
   grid-row: 2/3;
@@ -175,15 +176,17 @@ img {
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
-  background-color: white;
+  background-color:#619EF3;
 }
 
 .p2 {
   padding: 0 250px;
+  color: #000000;
+  
 }
 
 .h2 {
-  color:#146396;
+  color: #000000;
 }
 
 .r3c1 {
@@ -193,6 +196,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color:#619EF3;
 }
 
 .r3c1 img {
@@ -226,6 +230,7 @@ img {
   flex-direction: row;
   justify-content: center;
   padding-bottom: 100px;
+  background-color:#619EF3;
 }
 .r3c1 img {
   height: 150px;
@@ -246,6 +251,11 @@ img {
   margin-top: 75px;
 }
 
+.color-transition {
+  background-color: #9dc2f6;
+  background-image: linear-gradient(0deg, #9dc2f6 0%, #ffd99a 100%);
+}
+
 .r5c1 {
   display: grid;
   grid-row: 5/6;
@@ -253,6 +263,8 @@ img {
   justify-items: center;
   color: #146396;
   padding-top: 50px;
+  background-color: #9dc2f6;
+  background-image: linear-gradient(0deg, #9dc2f6 0%, #619ef3 100%);
 }
 
 .r6c1 {
@@ -261,16 +273,19 @@ img {
   grid-column: 1/7;
   flex-direction: row;
   justify-content: center;
+  background-color: #ffd99a;
+  background-image: linear-gradient(0deg, #ffd99a 0%, #9dc2f6 100%);
 }
 
 .r6c1 > div {
-  background-color: white ;
+  background-color: white;
   max-width: 300px;
   margin: 0 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 75px;
+  color: #000000;
 }
 
 .r7c1 {
@@ -279,6 +294,7 @@ img {
   grid-column: 1/7;
   flex-direction: row;
   justify-content: center;
+  background-color: #FFD99A;
 }
 
 .r7c1 > div {

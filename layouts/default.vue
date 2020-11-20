@@ -28,6 +28,11 @@ export default {
 
 
 <style>
+:root  { 
+            --dominant-color: red; 
+            --secondary-color: #FFC058; 
+        } 
+        
 html {
   font-family: 'Open Sans', sans-serif;
 }
@@ -35,4 +40,6 @@ html {
 body {
   margin: 0;
 }
+
+
 </style>

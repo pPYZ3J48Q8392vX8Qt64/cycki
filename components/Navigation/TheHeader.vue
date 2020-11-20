@@ -46,7 +46,7 @@ export default {
 }
 
 .header-text{
-  color: #FF761E;
+  color:  #0367F0;
 }
 
 .the-header {
@@ -92,11 +92,12 @@ export default {
 .nav-item {
   margin: 0 10px;
   margin-left: 50px;
+  color:  #0367F0;
 }
 
 .nav-item a {
   text-decoration: none;
-  color: #000000;
+  color: #0367F0;
   font-size: 18px;
 }
 
@@ -105,4 +106,5 @@ export default {
 .nav-item a.nuxt-link-active {
   color: red;
 }
+
 </style>
